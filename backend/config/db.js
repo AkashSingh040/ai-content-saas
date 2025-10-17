@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose');//mongoosh is ODM (Object Data Modelling) tool that helps you interact with MongoDB using JavaScript objects
 
 const connectDB = async () => {
   try {

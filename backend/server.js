@@ -1,7 +1,7 @@
 const express = require('express');
-const dotenv = require('dotenv');
+const dotenv = require('dotenv');//helps in loading .env file 
 const cors = require('cors');
-const helmet = require('helmet');
+const helmet = require('helmet');//provide better HTTP protection
 const connectDB = require('./config/db');
 
 // Load env variables
